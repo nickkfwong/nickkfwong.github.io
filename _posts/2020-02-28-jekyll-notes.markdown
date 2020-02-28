@@ -60,5 +60,5 @@ date: "2020-02-28 22:57:36 +0800"
     ```
 
 # Resource
-https://jekyllrb.com/docs/installation/windows/
-https://jekyllrb.com/docs/troubleshooting/#no-sudo
+[https://jekyllrb.com/docs/installation/windows/](https://jekyllrb.com/docs/installation/windows/)
+[https://jekyllrb.com/docs/troubleshooting/#no-sudo](https://jekyllrb.com/docs/troubleshooting/#no-sudo)
