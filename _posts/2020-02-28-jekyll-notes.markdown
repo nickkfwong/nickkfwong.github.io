@@ -3,7 +3,7 @@ layout: post
 title: "jekyll notes"
 date: "2020-02-28 22:57:36 +0800"
 ---
-# 1. wsl 
+# 1. wsl
 - install wsl
 - update apt-get
 
@@ -19,7 +19,7 @@ date: "2020-02-28 22:57:36 +0800"
     sudo apt-get update
     sudo apt-get install ruby2.5 ruby2.5-dev build-essential dh-autoreconf
     ```
-    
+
 - update gem
 
     ```bash
@@ -32,7 +32,7 @@ date: "2020-02-28 22:57:36 +0800"
     ```bash
     gem install jekyll bundler
     ```
-    
+
 - update .bashrc
 
     ```bash
@@ -44,6 +44,12 @@ date: "2020-02-28 22:57:36 +0800"
 
     ```bash
     nickkfwong.github.io> jekyll new .
+    ```
+
+- install bundled packages
+
+    ```bash
+    nickkfwong.github.io> bundle install
     ```
 
 - build jekyll
