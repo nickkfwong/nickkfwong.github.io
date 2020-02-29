@@ -65,6 +65,22 @@ date: "2020-02-28 22:57:36 +0800"
     nickkfwong.github.io> bundle exec jekyll serve
     ```
 
+# 4. Blogging
+#### Type of posts
+- posts
+- collections
+
+#### Accessing site content
+- iterate all posts
+
+  ```ruby
+  {% for post in site.posts %}
+  {% endfor %}
+  ```
+
+-
+
 # Resource
 [https://jekyllrb.com/docs/installation/windows/](https://jekyllrb.com/docs/installation/windows/)
+
 [https://jekyllrb.com/docs/troubleshooting/#no-sudo](https://jekyllrb.com/docs/troubleshooting/#no-sudo)
