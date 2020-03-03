@@ -2,6 +2,7 @@
 layout: post
 title: "jekyll notes"
 date: "2020-02-28 22:57:36 +0800"
+categories: notes jekyll
 ---
 # 1. wsl
 - install wsl
