@@ -18,5 +18,6 @@ Tools -> Android -> Android SDK Manager
 
 Platform
 ```
-Windows 10, AMD Ryzen 2700X
+AMD Ryzen 2700X, Windows 10
+Visual Studio Community 2019
 ```
