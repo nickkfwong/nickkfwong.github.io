@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "binary tree notes"
+title: "Notes: Binary Tree"
 date: "2020-02-29 19:18:06 +0800"
 categories: notes data-structure graph
 ---
