@@ -15,7 +15,7 @@ Fix any Android SDK Tools from Visual 2019
 ```
 Tools -> Android -> Android SDK Manager
 
--> Install NDK
+-> Install NDK (what?)
 
 Create Android 9 Device
 Create Android 10 Device
