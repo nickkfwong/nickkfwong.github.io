@@ -1,31 +1,33 @@
 ---
 layout: post
-title: "Setup a simple web with Flask"
+title: "Setup a simple web with Flask (1)"
 date: "2020-03-10 22:36:17 +0800"
+categories: notes flask
 ---
 # Environemnt
-- Python 3.7.8
+- Windows 10
 - Pycharm 2019.3.3
+- Python 3.7.8
+
+# Lib
 - Flask 1.1.1
 
-# Setup project
-- Start New Project
-> flask-app
+# The project
+```
+flask-app
+ |- venv
+ |- app.py
+```
 
+# Setup
+- Start new project named flask-app
 - Create new virtual environment using Python 3.7
-> flask-app
-> |- venv
-
 - Install Flask
 - Freeze requirements
-    `pip freeze > ./requirement.txt`
+    `pip freeze > ./requirements.txt`
 
 # Create the sample app
-- Add new entry point app.py
-> flask-app
-> |- venv
-> |- app.py
-
+- Add new Python file `app.py` as entry point
 - Add sample code
   ```Python
   from flask import Flask, escape, request
@@ -41,13 +43,16 @@ date: "2020-03-10 22:36:17 +0800"
 
   if __name__ == '__main__':
       app.run()
-
   ```
 
-- Start the app in Terminal
+# Start from Terminal
+- Setup environment in Terminal
   ```
   (venv) ~\flask-app > set FLASK_APP=app.py
   (venv) ~\flask-app > set FLASK_ENV=development
+  ```
+- Run the app
+  ```
   (venv) ~\flask-app > flask run
 
   * Serving Flask app "app.py" (lazy loading)
@@ -59,9 +64,11 @@ date: "2020-03-10 22:36:17 +0800"
   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
   ```
 
-- Start the app in PyCharm
-  > Run/Debug config setup: 
-  > `environment variables: FLASK_ENV=development`
+# Start from PyCharm
+- Setup environment from Run/Debug config:
+  `environment variables: FLASK_ENV=development`
+
+- Right-click app.py > select `Run 'app'` or `Debug 'app'`
   ```
   C:\Dev\Projects\python\flask-app\venv\Scripts\python.exe C:/Dev/Projects/python/flask-app/app.py
   * Serving Flask app "app" (lazy loading)
