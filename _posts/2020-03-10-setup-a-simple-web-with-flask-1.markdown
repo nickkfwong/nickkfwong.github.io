@@ -69,6 +69,7 @@ flask-app
   `environment variables: FLASK_ENV=development`
 
 - Right-click app.py > select `Run 'app'` or `Debug 'app'`
+
   ```
   C:\Dev\Projects\python\flask-app\venv\Scripts\python.exe C:/Dev/Projects/python/flask-app/app.py
   * Serving Flask app "app" (lazy loading)
