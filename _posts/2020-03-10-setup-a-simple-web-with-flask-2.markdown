@@ -24,7 +24,7 @@ flask-app
 # Create html templates
 - Add a `templates` directory
 - Add a new Hello.html in `templates`
-  ```
+  ```ruby
   <!DOCTYPE html>
   <html lang="en">
   <head>
